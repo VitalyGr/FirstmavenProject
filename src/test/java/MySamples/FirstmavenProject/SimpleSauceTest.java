@@ -19,7 +19,7 @@ public void setUp() throws Exception {
 	DesiredCapabilities caps = DesiredCapabilities.firefox();
 	caps.setCapability("platform", "Windows 7");
 	caps.setCapability("version", "38.0");
-	driver = new RemoteWebDriver(new URL("http://Vitaly_G:efbf54a0-794b-45dc-a6c3-c9435e46736c@ondemand.saucelabs.com:80/wd/hub"),caps);
+	driver = new RemoteWebDriver(new URL("http://Vitaly_Gdi:33a37c2a-4323-44a3-b69a-0da12bde065f@ondemand.saucelabs.com:80/wd/hub"),caps);
 	}
 @Test
 public void SauceTitle() throws Exception {
